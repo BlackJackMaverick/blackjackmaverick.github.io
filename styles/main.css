@@ -1,0 +1,63 @@
+ div.columns{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:100%;
+}
+
+div.rows{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:100%; 
+}
+
+h1{
+  text-align: center;
+  border-color: black;
+  border-top-style: double;
+  border-bottom-style: double;
+  padding:3px;
+  background-color: rgba(255,255,255,0.5);
+  margin-bottom: 0px;
+}
+
+p{
+  text-align: justify;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: rgba(245,245,220, 0.5);
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+a{
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  border-radius: 5px;
+  width:25%;
+  background-color: beige;
+}
+
+a:hover{
+  text-decoration: underline;
+  background-color: white;
+
+}
+
+body{
+    background-image: url(styles/Mountains1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
